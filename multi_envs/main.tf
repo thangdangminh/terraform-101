@@ -6,7 +6,3 @@ terraform {
     }
   }
 }
-
-locals {
-  bucket_state_name = "terraform-states"
-}
