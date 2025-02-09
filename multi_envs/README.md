@@ -8,6 +8,14 @@
 
 * Start localstack locally using Docker
 
+* For production run
+```bash
+cd environments/production
+terraform init
+terraform apply --var-file=prod.tfvars 
+```
+The same for staging env
+
 ## Useful Terraform commands
 
 * Initialize state
